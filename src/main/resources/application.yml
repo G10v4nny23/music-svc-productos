@@ -1,0 +1,14 @@
+api:
+  my_cors:
+    allowed_origin_front: "http://localhost:4000"
+    allowed_methods: GET, POST, PUT, DELETE
+    allowed_headers: Authorization, Refresh-Token  
+  
+  baseUrl: api/
+  
+  server:
+    port: 10001
+
+api_db_producto:
+  baseUrl: http://localhost:10000/api
+
